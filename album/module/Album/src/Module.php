@@ -14,15 +14,15 @@ class Module implements ConfigProviderInterface
         return include __DIR__ . '/../config/module.config.php';
     }
     
-    public function getServiveConfig()
+    public function getServiceConfig()
     {
         return [
             'factories' => [
-                Model\AlbumTable::class => function ($container) {
+                Model\AlbumTable::class => function($container) {
                     $tableGateway = $container->get(Model\AlbumTableGateway::class);
                     return new Model\AlbumTable($tableGateway);
                 },
-                Model\AlbumTableGateway::class => function($container) {
+                Model\AlbumTableGateway::class => function ($container) {
                     $dbAdapter = $container->get(AdapterInterface::class);
                     $resultSetPrototype = new ResultSet();
                     $resultSetPrototype->setArrayObjectPrototype(new Model\Album());
@@ -31,4 +31,18 @@ class Module implements ConfigProviderInterface
             ],
         ];
     }
+    
+    public function getControllerConfig()
+    {
+        return [
+            'factories' => [
+                Controller\AlbumController::class => function($container) {
+                    return new Controller\AlbumController(
+                        $container->get(Model\AlbumTable::class)
+                        );
+                },
+            ],
+        ];
+    }
+    
 }
