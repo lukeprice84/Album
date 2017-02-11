@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-eventmanager/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-validator/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-form/autoload"/>
+	<buildpathentry kind="src" path="module/Application/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-i18n/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-hydrator/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-router/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-inputfilter/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-config/src"/>
+	<buildpathentry kind="src" path="vendor/zfcampus/zf-development-mode/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-http/src"/>
+	<buildpathentry kind="src" path="vendor/container-interop/container-interop/src/Interop/Container"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-loader/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-stdlib/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-mvc/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-component-installer/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-modulemanager/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-uri/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-filter/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-servicemanager/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-db/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-form/src"/>
+	<buildpathentry kind="src" path="vendor/composer"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-code/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-view/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-escaper/src"/>
+	<buildpathentry kind="src" path="module/Album/src"/>
+</buildpath>
