@@ -22,7 +22,9 @@
 	"autoload" : {
 		"psr-4" : {
 			"Application\\" : "module/Application/src/",
-			"Album\\" : "module/Album/src"
+			"Album\\" : "module/Album/src",
+			"ApplicationTest\\" : "module/Application/test",
+			"AlbumTest\\" : "module/Album/test"
 		}
 	},
 	"autoload-dev" : {
@@ -39,5 +41,13 @@
 		"post-create-project-cmd" : "@development-enable",
 		"serve" : "php -S 0.0.0.0:8080 -t public/ public/index.php",
 		"test" : "phpunit"
+	},
+	"authors" : [{
+			"name" : "Luke Price",
+			"email" : "lukeprice@mail.com"
+		}
+	],
+	"require-dev" : {
+		"zendframework/zend-test" : "^3.0"
 	}
 }

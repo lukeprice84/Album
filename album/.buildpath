@@ -1,30 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildpath>
 	<buildpathentry kind="src" path="vendor/zendframework/zend-eventmanager/src"/>
-	<buildpathentry kind="src" path="vendor/zendframework/zend-validator/src"/>
+	<buildpathentry kind="src" path="vendor/phpunit/php-timer/src"/>
 	<buildpathentry kind="src" path="vendor/zendframework/zend-form/autoload"/>
 	<buildpathentry kind="src" path="module/Application/src"/>
-	<buildpathentry kind="src" path="vendor/zendframework/zend-i18n/src"/>
-	<buildpathentry kind="src" path="vendor/zendframework/zend-hydrator/src"/>
-	<buildpathentry kind="src" path="vendor/zendframework/zend-router/src"/>
 	<buildpathentry kind="src" path="vendor/zendframework/zend-inputfilter/src"/>
 	<buildpathentry kind="src" path="vendor/zendframework/zend-config/src"/>
+	<buildpathentry kind="src" path="vendor/phpdocumentor/reflection-common/src"/>
 	<buildpathentry kind="src" path="vendor/zfcampus/zf-development-mode/src"/>
 	<buildpathentry kind="src" path="vendor/zendframework/zend-http/src"/>
-	<buildpathentry kind="src" path="vendor/container-interop/container-interop/src/Interop/Container"/>
-	<buildpathentry kind="src" path="vendor/zendframework/zend-loader/src"/>
+	<buildpathentry kind="src" path="vendor/symfony/yaml"/>
+	<buildpathentry kind="src" path="vendor/phpspec/prophecy/src"/>
+	<buildpathentry kind="src" path="vendor/phpdocumentor/reflection-docblock/src"/>
 	<buildpathentry kind="src" path="vendor/zendframework/zend-stdlib/src"/>
 	<buildpathentry kind="src" path="vendor/zendframework/zend-mvc/src"/>
 	<buildpathentry kind="src" path="vendor/zendframework/zend-component-installer/src"/>
+	<buildpathentry kind="src" path="vendor/phpunit/php-text-template/src"/>
 	<buildpathentry kind="src" path="vendor/zendframework/zend-modulemanager/src"/>
 	<buildpathentry kind="src" path="vendor/zendframework/zend-uri/src"/>
 	<buildpathentry kind="src" path="vendor/zendframework/zend-filter/src"/>
 	<buildpathentry kind="src" path="vendor/zendframework/zend-servicemanager/src"/>
+	<buildpathentry kind="src" path="vendor/sebastian/recursion-context/src"/>
 	<buildpathentry kind="src" path="vendor/zendframework/zend-db/src"/>
-	<buildpathentry kind="src" path="vendor/zendframework/zend-form/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-test/src"/>
+	<buildpathentry kind="src" path="module/Application/test"/>
 	<buildpathentry kind="src" path="vendor/composer"/>
 	<buildpathentry kind="src" path="vendor/zendframework/zend-code/src"/>
-	<buildpathentry kind="src" path="vendor/zendframework/zend-view/src"/>
+	<buildpathentry kind="src" path="vendor/sebastian/comparator/src"/>
+	<buildpathentry kind="src" path="vendor/phpunit/phpunit-mock-objects/src"/>
 	<buildpathentry kind="src" path="vendor/zendframework/zend-escaper/src"/>
+	<buildpathentry kind="src" path="vendor/sebastian/exporter/src"/>
 	<buildpathentry kind="src" path="module/Album/src"/>
+	<buildpathentry kind="src" path="vendor/sebastian/resource-operations/src"/>
+	<buildpathentry kind="src" path="vendor/webmozart/assert/src"/>
+	<buildpathentry kind="src" path="vendor/sebastian/object-enumerator/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-validator/src"/>
+	<buildpathentry kind="src" path="vendor/myclabs/deep-copy/src/DeepCopy"/>
+	<buildpathentry kind="src" path="vendor/sebastian/environment/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-i18n/src"/>
+	<buildpathentry kind="src" path="module/Album/test"/>
+	<buildpathentry kind="src" path="vendor/sebastian/version/src"/>
+	<buildpathentry kind="src" path="vendor/phpunit/php-token-stream/src"/>
+	<buildpathentry kind="src" path="vendor/doctrine/instantiator/src/Doctrine/Instantiator"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-hydrator/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-router/src"/>
+	<buildpathentry kind="src" path="vendor/phpunit/phpunit/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-console/src"/>
+	<buildpathentry kind="src" path="vendor/phpunit/php-file-iterator/src"/>
+	<buildpathentry kind="src" path="vendor/sebastian/diff/src"/>
+	<buildpathentry kind="src" path="vendor/phpdocumentor/type-resolver/src"/>
+	<buildpathentry kind="src" path="vendor/container-interop/container-interop/src/Interop/Container"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-loader/src"/>
+	<buildpathentry kind="src" path="vendor/sebastian/global-state/src"/>
+	<buildpathentry kind="src" path="vendor/sebastian/code-unit-reverse-lookup/src"/>
+	<buildpathentry kind="src" path="vendor/phpunit/php-code-coverage/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-dom/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-form/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-view/src"/>
 </buildpath>
